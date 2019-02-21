@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(rgba(108, 109, 96, 0.9), rgba(182, 185, 154, 0.2)),url(../img/fond.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+}
+
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    border-bottom-color: #fa0298;
+    box-shadow: 2px 2px 8px 2px #fa0298;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    background-color: #aea;
+}
+a{
+    color:#c877a8;
+}
+img{
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    /*height: 350px;*/
+   /* max-height: 250px;*/
+     
+}
+.btn{
+    background-color: #c877a8;
+    box-shadow: 2px 2px 2px 2px !important;
+    border-radius: 40px;
+    color:black;
+    
+}
+.btn:hover{
+    color:black;
+    background-color: #dfc7d5;
+}
+.jumbotron{
+    box-shadow: 2px 2px 2px 2px !important;
+    border-radius: 15px !important;
+}
+.card-header{
+    background-color: #aea;
+    border-radius:10px !important;
+    box-shadow: 2px -2px 8px 2px #fa0298;
+}
+.card-group{
+    padding-top: 50px;
+}
+#carousel img{
+    max-height: 350px;
+    
+}
+.card{
+    border-radius:10px !important;
+}
+.list-group-item{
+    border-radius:10px !important;
+    
+}
