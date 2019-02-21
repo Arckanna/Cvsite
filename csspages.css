@@ -6,6 +6,9 @@ body{
     background-color: transparent;
 
 }
+abbr{
+    text-decoration:none;
+}
 
 
 h1{
