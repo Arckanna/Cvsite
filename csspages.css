@@ -57,6 +57,7 @@ img{
 }
 .card-group{
     padding-top: 50px;
+    box-shadow: 2px -2px 8px 2px #000;
 }
 #carousel img{
     max-height: 350px;
