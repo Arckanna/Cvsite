@@ -47,22 +47,38 @@
     
     <div class="container-fluid text-center mt-5 mb-5">
       <h1><span>Contact Me</span></h1>
-      <svg class="face" height="100" width="100">
-        <circle cx="50" cy="50" r="50" fill="#FDD835"/>
-        <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
-        <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
-        <circle cx="30" cy="30" r="5" fill="#000000"/>
-        <circle cx="70" cy="30" r="5" fill="#000000"/>
-        <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
-      </svg>
+      <div class="container-fluid text-center mt-5 mb-5">
+        <svg class="face" height="100" width="100">
+          <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+          <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+          <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+          <circle cx="30" cy="30" r="5" fill="#000000"/>
+          <circle cx="70" cy="30" r="5" fill="#000000"/>
+          <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+        </svg>
+      </div>
       
       <!--form-->
-      <form action="mailto:val0910@hotmail.fr" method="post"  enctype="text/plain" class="mt-5">
-        <input name="name" placeholder="Name" type="text" class="mt-5" required /><br/>
-        <input name="email" placeholder="Email" type="email" class="mt-5" required /><br/>
-        <textarea name="message" placeholder="Message" class="mt-5" required ></textarea><br/>
-        <input type="submit" value="SEND" class="submit mt-5" />
+      <div class="container-fluid text-center mt-5 mb-5">
+      <form class="container justify-content-center mt-5 mb-5" action="mailto:val0910@hotmail.fr" method="post"  enctype="text/plain" >
+        <div class="form-row">
+          <label for="name">Nom</label>
+          <input name="name" placeholder="Name" type="text" class="form-control mt-5" required /><br/>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input name="email" placeholder="Email" type="email" class="form-control mt-5" required /><br/>
+        </div>
+        <div class="form-row">
+          <label for="message">Message :</label>
+          <textarea name="message" class="form-control mt-5" rows="3" required ></textarea><br/>
+        </div>
+        <div class="text-center">
+            <input type="submit"class="btn btn-primary mt-5" value="Envoyer">
+        </div>
+        
       </form>
+      </div>
     </div>
     
     <!--footer-->
