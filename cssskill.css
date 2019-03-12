@@ -42,5 +42,8 @@ progress::-webkit-progress-value {
 } 
 progress::-moz-progress-bar {
     color: #3fb6b2;
-    background-color: #3fb6b2;
+    background-color: #efefef;
+}
+.bluebar::-moz-progress-bar {
+  background-color: red;
 }
