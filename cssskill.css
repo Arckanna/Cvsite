@@ -44,3 +44,7 @@ progress::-moz-progress-bar {
     color: #3fb6b2;
     background-color: #efefef;
 }
+.bluebar::-moz-progress-bar {
+    color: #3fb6b2;
+    background-color: #efefef;
+}
