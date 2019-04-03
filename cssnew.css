@@ -9,6 +9,7 @@ article{
   border: 5px solid green;
   padding: 20px;
   margin: 15px;
+  display: inline-grid;
 }
 nav a{
   text-decoration: none;
@@ -44,8 +45,17 @@ nav{
 }
 #projet{
   padding-top: 20vh;
-   display: inline-grid;
+
 }
 #contact{
   padding-top: 20vh;
+}
+article a{
+  text-decoration: none;
+  color:black;
+}
+article img{
+  border-radius: 5px;
+  border : 2px solid black;
+
 }
