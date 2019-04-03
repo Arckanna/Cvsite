@@ -69,7 +69,7 @@ nav {
 }
 
 #contact {
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 
 article a {
@@ -126,6 +126,9 @@ div img{
   width: 100%!important;
   height: 100%!important;
 }
+.kduFOu {
+  padding-top: 0!important;
+}
 @media screen and (max-width:640px) {
   article {
     padding: 5px;
@@ -146,6 +149,7 @@ div img{
   #resume {
     padding-top: 55vh;
   }
+
   main {
     width: 80vw;
     margin-left: 10vw;
