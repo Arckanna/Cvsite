@@ -105,13 +105,22 @@ button {
   height: 10vh;
   width: 20vw;
   cursor: pointer;
+  font-size: 30px;
   box-shadow: 2px 2px 2px 2px #000;
 }
 
 button:hover {
   background-color: rgb(76, 175, 80);
 }
-
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+}
+a{
+  font-family: 'Raleway', sans-serif;
+}
 @media screen and (max-width:640px) {
   article {
     padding: 5px;
@@ -126,7 +135,8 @@ button:hover {
   }
   button {
     margin: 5px;
-    width: 27vw;
+    width: 29vw;
+    font-size: 15px;
   }
   #resume {
     padding-top: 55vh;
@@ -137,7 +147,7 @@ button:hover {
   }
   nav li {
     display: block;
-    width: 80px;
+    width: 100px;
     border: none;
     margin-left: 50px;
     margin-top:5px;
