@@ -1,61 +1,111 @@
-section{
-  height:100vh;
-  width:100vw;
-  text-align: center;
-
+body {
+  font-size: 20px;
 }
-article{
+
+section {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+article {
   width: 20vw;
   border: 3px solid green;
   padding: 20px;
   margin: 15px;
   display: inline-grid;
 }
-nav a{
+
+nav a {
   text-decoration: none;
-  color:black;
-
+  color: black;
 }
-nav ul{
+
+nav ul {
   list-style-type: none;
-
 }
-nav li{
+
+nav li {
   display: inline;
   padding-right: 15vh;
   border-right: 2px solid black;
+  font-size: 35px;
 }
-nav img{
-  float: left;
 
-  max-height: 50px;
-    position: relative;
-    left: 56px;
-    top: -7px;
+nav li:hover {
+  background-color: rgb(76, 175, 80);
+  border-radius: 12px;
+  border: 3px solid black;
+  box-shadow: 2px 2px 2px 2px #000;
 }
-nav{
+
+nav img {
+  float: left;
+  max-height: 50px;
+  position: relative;
+  left: 56px;
+  top: -7px;
+}
+
+nav {
   position: fixed;
   top: 0;
   text-align: right;
   width: 100%;
   background-color: grey;
 }
-#resume{
+
+#resume {
   padding-top: 40vh;
+  background-image: url("img/carrousel2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-#projet{
-  padding-top: 20vh;
 
-}
-#contact{
+#projet {
   padding-top: 20vh;
 }
-article a{
+
+#contact {
+  padding-top: 20vh;
+}
+
+article a {
   text-decoration: none;
-  color:black;
+  color: black;
+  cursor: pointer;
 }
-article img{
-  border-radius: 15px;
-  border : 3px solid black;
 
+article img {
+  border-radius: 15px;
+  border: 3px solid black;
+  box-shadow: 2px 2px 2px 2px #000;
+}
+
+article a:hover {
+  background-color: rgb(76, 175, 80);
+  border-radius: 12px;
+  border: 3px solid black;
+  box-shadow: 2px 2px 2px 2px #000;
+}
+
+main {
+  border-radius: 10px;
+  margin-left: 25vw;
+  width: 50vw;
+  background-color: buttonface;
+}
+
+button {
+  margin: 15px;
+  border-radius: 10px;
+  border: 3px solid black;
+  height: 10vh;
+  width: 20vw;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px #000;
+}
+
+button:hover {
+  background-color: rgb(76, 175, 80);
 }
