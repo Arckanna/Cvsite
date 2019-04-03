@@ -1,5 +1,6 @@
 body {
   font-size: 20px;
+  margin: 0;
 }
 
 section {
@@ -53,11 +54,12 @@ nav {
   text-align: right;
   width: 100%;
   background-color: grey;
+  margin-left: 0;
 }
 
 #resume {
   padding-top: 40vh;
-  background-image: url("img/carrousel2.jpg");
+  background-image: url("img/matrix-1799661_1920.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -110,32 +112,40 @@ button:hover {
   background-color: rgb(76, 175, 80);
 }
 
-@media only screen and (max-width: 600px) {
-    article {
+@media screen and (max-width:640px) {
+  article {
     padding: 5px;
-    width: 45vw;
+    width: 80vw;
   }
   article img {
-    width:50px;
-    height:50px;
+    width: 50vw;
+    height: 25vh;
   }
-  section{
-    height:auto;
+  section {
+    height: auto;
   }
   button {
-    margin:5px;
-    width:27vw;
-
+    margin: 5px;
+    width: 27vw;
+  }
+  #resume {
+    padding-top: 55vh;
+  }
+  main {
+    width: 80vw;
+    margin-left: 10vw;
   }
   nav li {
     display: block;
-    width: 60px;
-    border:none;
-    margin:auto;
+    width: 80px;
+    border: none;
+    margin-left: 50px;
+    margin-top:5px;
+    font-size: 18px;
   }
-  nav li:hover{
+  nav li:hover {
     background-color: inherit;
-    border:none;
+    border: none;
     box-shadow: none;
   }
 }
