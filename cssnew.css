@@ -1,10 +1,35 @@
 section{
+  align-items: center;
+  border: 1px solid black;
   height:100vh;
   width:100vw;
+  text-align: center;
+  padding-top: 40vh;
 }
 article{
-  
+  width: 30vh;
+  border: 5px solid green;
+  padding: 20px;
+  margin: 15px;
+}
+nav ul{
+  list-style-type: none;
+
+}
+nav li{
+  display: inline;
+  padding-right: 15vh;
+}
+nav img{
+  float: left;
 }
 nav{
-
+  position: fixed;
+  top: 0;
+  text-align: right;
+  width: 100%;
+  background-color: grey;
+}
+#projet{
+   display: inline-grid;
 }
