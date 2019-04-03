@@ -10,6 +10,9 @@ abbr{
     text-decoration:none;
 }
 
+.lien{
+  color:black!important;
+  }
 
 h1{
     font-family: 'Raleway', sans-serif;
@@ -36,14 +39,14 @@ img{
     margin-right: auto;
     /*height: 350px;*/
    /* max-height: 250px;*/
-     
+
 }
 .btn{
     background-color: #5f5f5f;
     box-shadow: 2px 2px 2px 2px #000!important;
     border-radius: 40px;
     color:white;
-    
+
 }
 .btn:hover{
     color:white;
@@ -60,11 +63,11 @@ img{
 }
 .card-group{
     padding-top: 50px;
-    
+
 }
 #carousel img{
     max-height: 350px;
-    
+
 }
 .card{
     border-radius:10px !important;
@@ -72,5 +75,5 @@ img{
 }
 .list-group-item{
     border-radius:10px !important;
-    
+
 }
