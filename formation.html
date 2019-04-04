@@ -5,6 +5,7 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="csspages.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
   <div class="container">
@@ -52,33 +53,33 @@
   <p class="lead">2018-2019 -- <a class="lien" href="https://www.sololearn.com/Profile/3738535">SOLOLEARN</a></p>
 </br>
 <ul>
-  <li>HTML. Certificat obtenu</li>
-  <li>Javascript. Certificat obtenu</li>
-  <li>CSS. Certificat obtenu</li>
-  <li>jQuery. Certificat obtenu</li>
-  <li>PHP. Certificat obtenu</li>
-  <li>SQL. Certificat obtenu</li>
-  <li>Java. Certificat obtenu</li>
-  <li>C++. Certificat obtenu</li>
-  <li>Python. Certificat obtenu</li>
+  <li onclick="bigImg('HTML')" >HTML. Certificat obtenu</li>
+  <li onclick="bigImg('Javascript')">Javascript. Certificat obtenu</li>
+  <li onclick="bigImg('CSS')" >CSS. Certificat obtenu</li>
+  <li onclick="bigImg('jquery')" >jQuery. Certificat obtenu</li>
+  <li onclick="bigImg('php')" >PHP. Certificat obtenu</li>
+  <li onclick="bigImg('sql')" >SQL. Certificat obtenu</li>
+  <li onclick="bigImg('java')" >Java. Certificat obtenu</li>
+  <li onclick="bigImg('c')" >C++. Certificat obtenu</li>
+  <li onclick="bigImg('python')" >Python. Certificat obtenu</li>
 </ul>
 </div>
 <div class="col-6">
   <p class="lead">2018-2019 -- <a class="lien" href="https://openclassrooms.com/fr/membres/valerie-lecoeur">OPENCLASSROOM</a></p>
 </br>
 <ul>
-  <li>Découvrez le fonctionnement des algorithmes. Certificat obtenu</li>
-  <li>Gérez votre code avec Git et GitHub. Certificat obtenu</li>
-  <li>Démarrez votre projet avec Java. Certificat obtenu</li>
-  <li>Réalisez des sites modernes et beaux grâce à WordPress. Certificat obtenu</li>
-  <li>Réalisez une application web avec React.js. Certificat obtenu</li>
-  <li>Créez votre premier site avec WordPress. Certificat obtenu</li>
-  <li>Découvrez les solutions CMS. Certificat obtenu</li>
-  <li>Introduction à jQuery. Certificat obtenu</li>
-  <li>Concevez votre site web avec PHP et MySQL. Certificat obtenu</li>
-  <li>Créez des pages web interactives avec JavaScript. Certificat obtenu</li>
-  <li>Apprenez à coder avec JavaScript. Certificat obtenu</li>
-  <li>Comprendre le Web. Certificat obtenu</li>
+  <li onclick="bigImg('algo')" >Découvrez le fonctionnement des algorithmes. Certificat obtenu</li>
+  <li onclick="bigImg('git')" >Gérez votre code avec Git et GitHub. Certificat obtenu</li>
+  <li onclick="bigImg('java')" >Démarrez votre projet avec Java. Certificat obtenu</li>
+  <li onclick="bigImg('word')" >Réalisez des sites modernes et beaux grâce à WordPress. Certificat obtenu</li>
+  <li onclick="bigImg('react')" >Réalisez une application web avec React.js. Certificat obtenu</li>
+  <li onclick="bigImg('word2')" >Créez votre premier site avec WordPress. Certificat obtenu</li>
+  <li onclick="bigImg('cms')" >Découvrez les solutions CMS. Certificat obtenu</li>
+  <li onclick="bigImg('jquery2')" >Introduction à jQuery. Certificat obtenu</li>
+  <li onclick="bigImg('phpsql')" >Concevez votre site web avec PHP et MySQL. Certificat obtenu</li>
+  <li onclick="bigImg('web')" >Créez des pages web interactives avec JavaScript. Certificat obtenu</li>
+  <li onclick="bigImg('coder')" >Apprenez à coder avec JavaScript. Certificat obtenu</li>
+  <li onclick="bigImg('compweb')" >Comprendre le Web. Certificat obtenu</li>
 </ul>
 </div>
 </div>
@@ -133,6 +134,27 @@
 
 
 </div>
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Certificat</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="monscript.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
