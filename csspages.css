@@ -54,9 +54,11 @@ img{
 }
 li .btn{
   all: unset;
+  float: right;
 }
-li{
+.certif{
   margin-top: 10px;
+  width:20vw;
 }
 .jumbotron{
     box-shadow: 2px 2px 2px 2px #000!important;
