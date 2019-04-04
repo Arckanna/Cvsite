@@ -52,6 +52,12 @@ img{
     color:white;
     background-color: #000;
 }
+li .btn{
+  all: unset;
+}
+li{
+  margin-top: 10px;
+}
 .jumbotron{
     box-shadow: 2px 2px 2px 2px #000!important;
     border-radius: 15px !important;
