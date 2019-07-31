@@ -32,9 +32,9 @@ nav ul {
 
 nav li {
   display: inline;
-  padding-right: 15vh;
+  padding-right: 13vh;
   border-right: 2px solid black;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 nav li:hover {
@@ -48,7 +48,7 @@ nav img {
   float: left;
   max-height: 50px;
   position: relative;
-  left: 56px;
+  left: 50px;
   top: -7px;
 }
 
