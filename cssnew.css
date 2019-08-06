@@ -206,50 +206,23 @@ div img{
     margin-left: auto;
     margin-right: auto;
   }
-  .menu
-{
-  background:#222;
-  color:#fff;
-  height:50px;
-  position:relative;
-}
 
-.menu .title
-{
-  font-size:30px;
-  font-weight:bold;
-  line-height:50px;
-  padding:0 20px;
-  text-transform:uppercase;
-}
+    h1 {
+        font-size: 42px;
+        line-height: 56px;
+    }
 
-.menu .burger
-{
-  appearance:none;
-  -moz-appearance:none;
-  -webkit-appearance:none;
-  color:inherit;
-  cursor:pointer;
-  font-family:'Material Icons';
-  font-size:30px;
-  line-height:50px;
-  margin:0;
-  outline:0;
-  padding:0;
-  position:absolute;
-  text-align:center;
-  top:0;
-  right:10px;
-  width:50px;
-}
+    #hamburger-content {
+        display: none;
+    }
 
-.menu .burger:before
-{
-  content:'menu';
-}
+    #hamburger-button, #hamburger-sidebar,
+    .hamburger-activated #hamburger-overlay {
+        display: block;
+    }
 
-.menu .burger:checked:before
-{
-  content:'close';
-}
+    .hamburger-activated #hamburger-sidebar {
+        transform: translateX(0);
+    }
+
 }
