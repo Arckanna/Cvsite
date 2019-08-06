@@ -139,7 +139,7 @@ div img{
   height: 900px!important;
 }
 
-@media screen and (max-width:801px) {
+@media screen and (max-width:1024px) {
   article {
     padding: 5px;
     width: 80vw;
@@ -206,4 +206,50 @@ div img{
     margin-left: auto;
     margin-right: auto;
   }
+  .menu
+{
+  background:#222;
+  color:#fff;
+  height:50px;
+  position:relative;
+}
+
+.menu .title
+{
+  font-size:30px;
+  font-weight:bold;
+  line-height:50px;
+  padding:0 20px;
+  text-transform:uppercase;
+}
+
+.menu .burger
+{
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  color:inherit;
+  cursor:pointer;
+  font-family:'Material Icons';
+  font-size:30px;
+  line-height:50px;
+  margin:0;
+  outline:0;
+  padding:0;
+  position:absolute;
+  text-align:center;
+  top:0;
+  right:10px;
+  width:50px;
+}
+
+.menu .burger:before
+{
+  content:'menu';
+}
+
+.menu .burger:checked:before
+{
+  content:'close';
+}
 }
