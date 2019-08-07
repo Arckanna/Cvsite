@@ -1,3 +1,7 @@
+html{
+    margin:0px;
+    padding:0px;
+}
 article img {
     height: 30vh;
     width: 20vw;
@@ -7,7 +11,13 @@ body {
     font-size: 20px;
     margin: 0;
 }
-
+.certif{
+  margin-top: 10px;
+  width:20vw;
+}
+li .btn{ 
+  float: right;
+}
 
 section {
     height: 100vh;
@@ -65,13 +75,12 @@ main {
 }
 
 button {
-    margin: 15px;
+    margin: 1px;
     border-radius: 10px;
-    border: 3px solid black;
-    height: 10vh;
-    width: 20vw;
+    border: 2px solid black;
+   
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
     box-shadow: 2px 2px 2px 2px #000;
 }
 
@@ -103,6 +112,10 @@ div img {
 }
 
 @media screen and (max-width:1024px) {
+    .certif{
+  margin-top: 10px;
+  width:40vw;
+    }
     h1{
         font-size: 20px;
     }
@@ -149,11 +162,11 @@ div img {
         width: 80vw;
         margin-left: 10vw;
     }
-
-
-
 }
+
 .lienButton {
+    margin-left: 5vw;
+    margin-right: 5vw;
     max-height: 50px;
     width: auto;
     border-radius: 10px;
@@ -163,6 +176,7 @@ div img {
 .topnav {
     background-color: #bdb7b7;
     overflow: hidden;
+    top: 0;
 }
 
 /* Style the links inside the navigation bar */
