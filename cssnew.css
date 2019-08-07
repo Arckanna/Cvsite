@@ -103,6 +103,12 @@ div img {
 }
 
 @media screen and (max-width:1024px) {
+    h1{
+        font-size: 20px;
+    }
+    #resume{
+        padding-top: 18vh;
+    }
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -126,12 +132,6 @@ div img {
     section {
         height: auto;
     }
-    button {
-        margin: 5px;
-        width: 29vw;
-        font-size: 15px;
-        margin-top: 15vh;
-    }
     
     #contact {
         padding-top: 4vh;
@@ -153,7 +153,11 @@ div img {
 
 
 }
-
+.lienButton {
+    max-height: 50px;
+    width: auto;
+    border-radius: 10px;
+}
 /* Add a black background color to the top navigation */
 
 .topnav {
