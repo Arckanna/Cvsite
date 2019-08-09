@@ -110,8 +110,111 @@ div img {
     width: 100%;
     height: 900px !important;
 }
+#competences{
+   margin-top: 75px ;
+}
+/* css timeline*/
+.container{
+    
+    position :static;
+}
+.container ul {
+  list-style: none;
+  position: static;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1px 90px;
+  color: #fff;
+  font-size: 13px;
+}
+.container ul:before {
+  content: '';
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  border-left: 2px dashed #fff;
+  
+}
+.container ul li {
+  position: relative;
+  margin-left: 0px ;
+  background-color: #bdb7b7;
+  padding: 14px;
+  border-radius: 6px;
+  width: 35vw;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+}
+.container ul li:not(:first-child) {
+  margin-top: 60px;
+}
+.container ul li > span {
+  width: 4px;
+  height: 100%;
+  background: #fff;
+  left: -30px;
+  top: 0;
+  position: absolute;
+}
+.container ul li > span:before, .container ul li > span:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  background: #86b7e7;
+  left: -5px;
+  top: 0;
+}
+.container ul li span:after {
+  top: 100%;
+}
+.container ul li > div {
+  margin-left: 10px;  
+}
+.container div .title, .container div .type {
+  font-weight: 600;
+  font-size: 12px;
+}
+.container div .info {
+  font-weight: 300;
+}
+.container div > div {
+  margin-top: 5px;
+}
+.container span.number {
+  height: 100%;
+}
+.container span.number span {
+  position: absolute;
+  font-size: 12px;
+  left: -35px;
+  font-weight: bold;
+    color:black;
+}
+.container span.number span:first-child {
+  top: 0;
+}
+.container span.number span:last-child {
+  top: 80%;
+}
 
 @media screen and (max-width:1024px) {
+    #expe {
+       margin-top: 900px;
+        padding:0;
+    }
+    .container ul li {
+        width: 55vw;
+        
+    }
+    .container ul li > span {
+        left: -45px;
+    }
+    h1 #competences{
+        margin-top: 55vh;
+    }
     .certif{
   margin-top: 10px;
   width:40vw;
@@ -161,6 +264,10 @@ div img {
     main {
         width: 80vw;
         margin-left: 10vw;
+    }
+    /* css timeline max-width:1024*/
+    h2 {
+        font-size: 15px;
     }
 }
 
